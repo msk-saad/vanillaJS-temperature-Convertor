@@ -1,3 +1,48 @@
+body {
+  background-color: rgb(207, 221, 227);
+}
+
 #title {
-  color: skyblue;
+  color: rgb(0, 135, 189);
+}
+
+.container {
+  background-color: rgb(225, 238, 244);
+  color: rgb(0, 135, 189);
+  width: 50%;
+  height: 50vh;
+  margin: 150px;
+  margin-left: 350px;
+  padding: 15px;
+  border: 1px solid rgb(0, 135, 189);
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+}
+
+
+.values {
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+  width: 350px;
+  height: 30px;
+  font-size: large;
+  color: rgb(0, 135, 189);
+}
+
+.submit {
+  background-color: rgb(0, 135, 189);
+  color: rgb(225, 238, 244);
+  border: none;
+  padding: 8px;
+  width: 80px;
+  height: 30px;
+}
+
+.submit:hover {
+  background-color: rgb(0, 174, 255);
+  color: rgb(225, 238, 244);
+
 }
