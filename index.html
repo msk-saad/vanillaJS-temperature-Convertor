@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Temperature Convertor</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1 id="title"></h1>
-  
+  <div class="container">
+    <h1 id="title"></h1>
+
+    <div class="values">
+      <form action="">
+        <p>
+          <input type="text" id="celsius" class="input-box"> °C
+        </p>
+        <p>
+          <input type="text" id="fahrenheit" class="input-box"> °F
+        </p>
+        <p>
+          <input type="text" id="kelvin" class="input-box"> K
+        </p>
+
+        <button class="submit">Calculate</button>
+      </form>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
+
 </html>
